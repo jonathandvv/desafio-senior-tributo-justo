@@ -97,7 +97,7 @@ A Tributo Justo atua na consultoria tributária de grandes empresas. Diariamente
   - Descrição da modelagem e arquitetura adotada
   - Detalhes da integração com a IA
 - Enviar o link por e-mail com o assunto: `Entrega Desafio Técnico – Sênior – [Seu Nome]`
-- Prazo sugerido: **até 5 dias úteis** após recebimento
+- Prazo sugerido: **até 5 dias** após recebimento
 
 ---
 
