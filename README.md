@@ -87,7 +87,7 @@ A Tributo Justo atua na consultoria tributária de grandes empresas. Diariamente
 ---
 
 ## 📦 Entrega
-
+- Faça um fork deste repositório.
 - Repositório Git com pastas organizadas:
   - `/backend`
   - `/frontend`
