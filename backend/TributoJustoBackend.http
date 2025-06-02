@@ -1,0 +1,6 @@
+@TributoJustoBackend_HostAddress = http://localhost:5197
+
+GET {{TributoJustoBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

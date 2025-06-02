@@ -1,0 +1,150 @@
+[
+  {
+    "ContainingType": "TributoJustoBackend.Controllers.AutenticacaoController",
+    "Method": "Entrar",
+    "RelativePath": "Autenticacao/entrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "credenciais",
+        "Type": "TributoJustoBackend.Models.DTOs.CredenciaisUsuarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TributoJustoBackend.Controllers.AutenticacaoController",
+    "Method": "Registrar",
+    "RelativePath": "Autenticacao/registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "credenciais",
+        "Type": "TributoJustoBackend.Models.DTOs.CredenciaisUsuarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TributoJustoBackend.Controllers.EmpresasController",
+    "Method": "Listar",
+    "RelativePath": "Empresas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TributoJustoBackend.Controllers.NotasFiscaisController",
+    "Method": "Detalhar",
+    "RelativePath": "NotasFiscais/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TributoJustoBackend.Controllers.NotasFiscaisController",
+    "Method": "ListarPorEmpresa",
+    "RelativePath": "NotasFiscais/empresa/{empresaId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empresaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TributoJustoBackend.Controllers.RelatorioController",
+    "Method": "ObterDashboard",
+    "RelativePath": "Relatorio/dashboard",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parametro",
+        "Type": "TributoJustoBackend.Models.DTOs.ParametroDashboardDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TributoJustoBackend.Controllers.RelatorioController",
+    "Method": "ExecutarAnalise",
+    "RelativePath": "Relatorio/inconsistencias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TributoJustoBackend.Controllers.RelatorioController",
+    "Method": "ObterPorRiscoFiscal",
+    "RelativePath": "Relatorio/inconsistencias-por-risco-fiscal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "minimo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TributoJustoBackend.Controllers.RelatorioController",
+    "Method": "Interpretar",
+    "RelativePath": "Relatorio/interpretar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parametro",
+        "Type": "TributoJustoBackend.Models.DTOs.ParametrosRelatorioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TributoJustoBackend.Controllers.UploadController",
+    "Method": "EnviarArquivo",
+    "RelativePath": "Upload/arquivo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Arquivo",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
